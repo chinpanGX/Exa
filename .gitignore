@@ -5,3 +5,6 @@ ExaUnityProject/Temp/
 ExaUnityProject/UserSettings/
 ExaUnityProject/obj/
 ExaUnityProject/.idea/
+ExaUnityProject/Assembly-CSharp.csproj
+ExaUnityProject/Assembly-CSharp-Editor.csproj
+ExaUnityProject/ExaUnityProject.sln
