@@ -1,6 +1,6 @@
 {
     "name": "Unity.InternalAPIEditorBridgeDev.001",
-    "rootNamespace": "",
+    "rootNamespace": "ParsonalPackage",
     "references": [],
     "includePlatforms": [
         "Editor"
