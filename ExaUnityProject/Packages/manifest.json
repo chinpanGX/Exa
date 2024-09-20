@@ -5,6 +5,8 @@
     "com.cysharp.r3": "1.2.8",
     "com.cysharp.unitask": "2.5.5",
     "com.cysharp.zstring": "2.6.0",
+    "com.harumak.unityscreennavigator": "https://github.com/Haruma-K/UnityScreenNavigator.git?path=/Assets/UnityScreenNavigator",
+    "com.sabanishi.screensystem": "https://github.com/sabanishi/ScreenSystem.git?path=/Packages/com.sabanishi.screensystem",
     "com.unity.addressables": "2.2.2",
     "com.unity.addressables.android": "1.0.4",
     "com.unity.ai.navigation": "2.0.4",

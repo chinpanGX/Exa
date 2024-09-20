@@ -37,6 +37,22 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.harumak.unityscreennavigator": {
+      "version": "https://github.com/Haruma-K/UnityScreenNavigator.git?path=/Assets/UnityScreenNavigator",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ef09a36fdeac6dc7017f9b3f1f59a3b7d3b94708"
+    },
+    "com.sabanishi.screensystem": {
+      "version": "https://github.com/sabanishi/ScreenSystem.git?path=/Packages/com.sabanishi.screensystem",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.0"
+      },
+      "hash": "8e60e9a17c5cbfbee7849f0edbdd8aa4dca69996"
+    },
     "com.unity.addressables": {
       "version": "2.2.2",
       "depth": 0,
