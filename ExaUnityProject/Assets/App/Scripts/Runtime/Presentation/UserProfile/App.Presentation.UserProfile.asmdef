@@ -1,0 +1,20 @@
+{
+    "name": "App.Presentation.UserProfile",
+    "rootNamespace": "App.Presentation.UserProfile",
+    "references": [
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:77221876cc6b8244180b96e320b1bcd4",
+        "GUID:2359c074672083046b6ff6b309700f8e",
+        "GUID:3f222f656295449599c5aecc37d2d31f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
