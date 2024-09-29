@@ -7,4 +7,4 @@
 |ZString|MIT|2.6.0|https://github.com/Cysharp/ZString|
 |VContainer|MIT|1.16.3|https://vcontainer.hadashikick.jp/ja/|
 |UnityScreenNavigator|MIT|1.7.0|https://github.com/Haruma-/UnityScreenNavigator|
-|ScreenSystem|MIT|1.0.0|https://github.com/sabanishi/ScreenSystem|
+|ScreenSystem|MIT|-|https://github.com/adarapata/ScreenSystem/tree/main|

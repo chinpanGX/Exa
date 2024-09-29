@@ -44,15 +44,6 @@
       "dependencies": {},
       "hash": "ef09a36fdeac6dc7017f9b3f1f59a3b7d3b94708"
     },
-    "com.sabanishi.screensystem": {
-      "version": "https://github.com/sabanishi/ScreenSystem.git?path=/Packages/com.sabanishi.screensystem",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.cysharp.unitask": "2.5.0"
-      },
-      "hash": "8e60e9a17c5cbfbee7849f0edbdd8aa4dca69996"
-    },
     "com.unity.addressables": {
       "version": "2.2.2",
       "depth": 0,
@@ -330,6 +321,16 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.adarapata.screensystem": {
+      "version": "file:../../Packages/ScreenSystem",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.4",
+        "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.13.2",
+        "com.harumak.unityscreennavigator": "https://github.com/Haruma-K/UnityScreenNavigator.git?path=/Assets/UnityScreenNavigator#1.6.3"
+      }
     },
     "jp.hadashikick.vcontainer": {
       "version": "1.16.3",
