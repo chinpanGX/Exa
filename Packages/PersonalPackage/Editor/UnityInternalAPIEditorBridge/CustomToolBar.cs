@@ -52,7 +52,8 @@ namespace PersonalPackage
                 return;
 
             currentBranchName = branchName;
-            label.text = $"パス名: {CurrentPathName} / ブランチ名: {currentBranchName}";
+            if (label != null)
+                label.text = $"パス名: {CurrentPathName} / ブランチ名: {currentBranchName}";    
         }
 
         private static string GetProjectPath(DirectoryInfo assetsFolder)
