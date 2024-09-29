@@ -11,9 +11,9 @@ namespace App.Domain.UserModel
             this.userName = userName;
         }
         
-        public UserName ChangeUserName(UserName userName)
+        public UserName ChangeUserName(UserName newUserName)
         {
-            this.userName = userName;
+            this.userName = newUserName;
             return this.userName;
         }
     }
