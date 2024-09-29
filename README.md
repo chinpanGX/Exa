@@ -4,6 +4,8 @@
     - Exa
     エディタVersion
     - Unity6Preview 6000.0.17f
+    アーキテクチャ
+    - オニオンアーキテクチャ
 
 ## プロジェクト構成
 ExaUnityProject
@@ -12,7 +14,8 @@ ExaUnityProject
 Packages
 > アプリに依存しないアセットの格納先
 
-## フォルダ構成
+## フォルダ
+### レイアウト
 <pre>
 └─App
     ├─AssetBundles
@@ -28,7 +31,6 @@ Packages
         │  └─Presentation
         └─Tests
 </pre>
-
 ## コーディングガイドライン
 ### 概要
 - 基本、"UpperCamelCase" (="PascalCase"),"camelCase"を使用する。
