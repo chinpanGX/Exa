@@ -5,14 +5,16 @@ namespace App.Infrastructure.UserInfoRepository
 {
     public class UserInfoRepository : IUserInfoRepository
     {
-        public UserInfoEntity GetUserInfo(UserId userId)
+        private UserInfoEntity userInfoEntity;
+        public UserInfoEntity GetUserInfo()
         {
-            throw new System.NotImplementedException();
+            return userInfoEntity;
         }
         
         public void Save(UserInfoEntity userInfoEntity)
         {
             PlayerPrefs.SetString("UserId", userInfoEntity.UserId.Id);
+            this.userInfoEntity = userInfoEntity;
         }
         
         public void Load()

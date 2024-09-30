@@ -2,7 +2,7 @@
 {
     public interface IUserInfoRepository
     {
-        UserInfoEntity GetUserInfo(UserId userId);
+        UserInfoEntity GetUserInfo();
         void Save(UserInfoEntity userInfoEntity);
         void Load();
     }

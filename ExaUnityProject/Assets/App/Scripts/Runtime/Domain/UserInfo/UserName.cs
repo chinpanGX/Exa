@@ -4,7 +4,7 @@ namespace App.Domain.UserInfo
 {
     public readonly struct UserName
     {
-        public string Name { get; }
+        public readonly string Name;
         
         public static UserName CreateNew()
         {
