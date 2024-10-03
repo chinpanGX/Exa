@@ -1,0 +1,16 @@
+{
+    "name": "App.Application.UserInfoService",
+    "rootNamespace": "App.Application.UserInfoService",
+    "references": [
+        "GUID:72075800299d51e48916ae7cf7efcfaf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

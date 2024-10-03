@@ -1,0 +1,16 @@
+{
+    "name": "App.Infrastructure.UserInfoRepository",
+    "rootNamespace": "App.Infrastructure.UserInfoRepository",
+    "references": [
+        "GUID:72075800299d51e48916ae7cf7efcfaf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
