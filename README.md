@@ -31,6 +31,11 @@ Packages
         │  └─Presentation
         └─Tests
 </pre>
+## モジュール化について
+- 各レイヤーから1つ以上のフォルダを追加する。
+- Domain, Application, Infrastructure層は機能単位でモジュール化する。
+- Presentation層は、画面ごとにモジュール化する。
+- 依存関係は、オニオンアーキテクチャのルールに準ずる。
 ## コーディングガイドライン
 ### 概要
 - 基本、"UpperCamelCase" (="PascalCase"),"camelCase"を使用する。
