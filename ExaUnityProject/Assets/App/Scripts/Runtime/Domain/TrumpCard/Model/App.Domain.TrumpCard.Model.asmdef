@@ -1,0 +1,16 @@
+{
+    "name": "App.Domain.TrumpCard.Model",
+    "rootNamespace": "App.Domain.TrumpCard.Model",
+    "references": [
+        "GUID:290b4eb3d8d82db43bfb0e4f4bd66499"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
