@@ -6,7 +6,7 @@ using App.Domain.TrumpCard.Data;
 
 namespace App.Domain.TrumpCard.Model
 {
-    public class TrumpCard
+    public class Card
     {
         public readonly CardSuit Suit;
         public readonly int Number;
@@ -16,7 +16,7 @@ namespace App.Domain.TrumpCard.Model
         /// <summary>
         /// ポーカーのルールに沿ったカードを生成する
         /// </summary>
-        public static TrumpCard CreateForPokerRule(CardSuit suit, int number)
+        public static Card CreateForPokerRule(CardSuit suit, int number)
         {
             int suitStrength = suit switch
             {
@@ -31,10 +31,10 @@ namespace App.Domain.TrumpCard.Model
             if (number == 1)
                 numberStrength = TrumpConstData.MaxCardNumber;
             
-            return new TrumpCard(suit, number, suitStrength, numberStrength);
+            return new Card(suit, number, suitStrength, numberStrength);
         }
         
-        internal TrumpCard(CardSuit suit, int number, int suitStrength, int numberStrength)
+        internal Card(CardSuit suit, int number, int suitStrength, int numberStrength)
         {
             Suit = suit;
             Number = number;

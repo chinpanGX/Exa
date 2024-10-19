@@ -1,10 +1,7 @@
 {
-    "name": "App.Domain.Deck",
-    "rootNamespace": "",
-    "references": [
-        "GUID:a3370cd55d51f2d4ebda0fc3968d78e9",
-        "GUID:290b4eb3d8d82db43bfb0e4f4bd66499"
-    ],
+    "name": "App.Domain.Battle",
+    "rootNamespace": "App.Domain.Battle",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -2,32 +2,43 @@
 using System.Collections.Generic;
 using App.Domain.TrumpCard.Data;
 using App.Domain.TrumpCard.Model;
-using TrumpCardModel = App.Domain.TrumpCard.Model.TrumpCard;
 
 namespace App.Domain.Deck
 {
-    public class Deck
+    public abstract class Deck
     { 
-        private readonly List<TrumpCardModel> cards;
+        protected readonly List<Card> Cards;
         
-        public static Deck CreatePokerDeck()
+        protected Deck(List<Card> cards)
         {
-            var cards = new List<TrumpCardModel>();
-            for (var i = TrumpConstData.MinCardNumber; i <= TrumpConstData.MaxCardNumber; i++)
-            {
-                for (var j = 0; j < TrumpConstData.MaxCardSuit; j++)
-                {
-                    cards.Add(TrumpCardModel.CreateForPokerRule((CardSuit)j, i));
-                }
-            }
-            
-            return new Deck(cards);
+            Cards = cards;
+            cards.Shuffle();
+        }
+    }
+
+
+    public class PlayerDeck : Deck, IDrawable, IExchangeable
+    {
+        public PlayerDeck(List<Card> cards) : base(cards)
+        {
+            if(cards.Count != PokerConstData.MaxHandCardCount)
+                throw new ArgumentException($"PlayerDeckは{PokerConstData.MaxHandCardCount}枚のカードでなければなりません。");
         }
         
-        private Deck(List<TrumpCardModel> cards)
+        public Card Draw()
         {
-            this.cards = cards;
-            cards.Shuffle();
+            if (Cards.Count == 0)
+                throw new InvalidOperationException("Deck is empty.");
+            
+            
+            var card = Cards[0];
+            Cards.RemoveAt(0);
+            return card;
+        }
+        
+        public void Exchange(Card card)
+        {
+            Cards.Add(card);
         }
     }
 }

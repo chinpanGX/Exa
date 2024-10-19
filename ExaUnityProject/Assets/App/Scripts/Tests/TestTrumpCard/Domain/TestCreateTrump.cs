@@ -12,13 +12,13 @@ namespace Test.TestTrumpCard.Domain
         [Test]
         public void CreateForPokerRule()
         {
-            var deck = new List<TrumpCard>();
+            var deck = new List<Card>();
             // トランプのカードを生成、整合性をチェック、デッキに追加
             for(int number = TrumpConstData.MinCardNumber; number <= TrumpConstData.MaxCardNumber; number++)
             {
                 for(int suit = 0; suit < TrumpConstData.MaxCardSuit; suit++)
                 {
-                    var trumpCard = TrumpCard.CreateForPokerRule((CardSuit)suit, number);
+                    var trumpCard = Card.CreateForPokerRule((CardSuit)suit, number);
                     
                     Assert.AreEqual(number, trumpCard.Number);
                     Assert.AreEqual((CardSuit)suit, trumpCard.Suit);
